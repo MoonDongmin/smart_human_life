@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>자동 광고 슬라이더 예시</title>
+    <title>버스 배너 광고</title>
     <style>
         /* 슬라이더 컨테이너 스타일링 */
         .slider-container {
@@ -40,7 +40,7 @@
 <div class="slider-container">
     <div class="slider-item">
         <div class="ad-description">
-            <h3 id="adTitle"></h3>
+            <h1 id="adTitle"></h1>
         </div>
         <img src="" alt="" id="adImage">
         <p id="adText"></p>
@@ -58,22 +58,21 @@
         {
             imageUrl: "https://cdn.dtnews24.com/news/photo/202306/746979_357139_1258.jpg\n",
             altText: "광고 1",
-            title: "이야 이게 되네",
-            text: "이것은 광고야 광고",
+            title: "대전 중구, 디지털 취약계층을 위한 키오스크 체험존 운영",
+            text: "실생활 중심 키오스크 맞춤형 교육을 위해 중구청 정보화교육장에 설치",
         },
         {
             imageUrl: "https://cdn.newstnt.com/news/photo/202302/254143_260136_4336.jpg\n",
             altText: "광고 2",
-            title: "벌써 구현을?",
-            text: "이것은 광고야 광고",
+            title: "대전교육청, 취약계층 학생 긴급지원비 지원 확대\n",
+            text: "대전시교육청이 취약계층 학생의 긴급･위기 상황 등을 지원하는 '꿈이룸 사제행복동행'사업을 확대 추진한다.\n"
         },
         {
             imageUrl: "https://www.newsro.kr/wp-content/uploads/2018/07/%EC%9C%A0%EC%84%B1%EA%B5%AC%EC%B2%AD%EC%82%AC-771x578.jpg",
             altText: "광고 3",
-            title: "제목 3",
-            text: "이것은 광고야 광고",
+            title: "대전 유성구, 디지털 소외계층 중심 정보화 역량 강화 위한 지원계획 수립",
+            text: "대전 유성구(구청장 정용래)가 코로나19로 촉발된 디지털 사회에서 모든 구민이 능동적이고 주체적인 시민으로 참여할 수 있도록 디지털 소외계층을 대상으로 하는 정보화 역량 지원계획을 수립했다고 26일 밝혔다.",
         },
-        // 추가 광고 정보
     ];
 
     let currentIndex = 0;

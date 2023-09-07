@@ -1,0 +1,22 @@
+/* 스타일링 */
+.bus-circle {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+
+#bus-location {
+    position: relative;
+    width: 500px; /* 원하는 전광판 영역의 크기로 조절하세요. */
+    height: 500px;
+    margin: 20px auto;
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+}
